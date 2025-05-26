@@ -11,7 +11,7 @@ if [ $(id -u) != "0" ]; then
     exit 1
 fi
 
-REQUEST_SERVER="https://github.com/867897/netproxy/blob/main/SK5/"
+REQUEST_SERVER="https://raw.githubusercontent.com/867897/netproxy/refs/heads/main/SK5"
 SCRIPT_SERVER="https://public.sockd.info"
 SYSTEM_RECOGNIZE=""
 
