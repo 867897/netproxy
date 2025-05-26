@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt update
 #更新
 apt list --upgradable
@@ -6,6 +7,8 @@ apt list --upgradable
 wget https://raw.githubusercontent.com/867897/netproxy/refs/heads/main/sk5v2/install.sh
 #权限
 sudo chmod 777 install.sh
+#运行
+bash install.sh
 #删除原有的配置
 v2ray d
 #bbr
