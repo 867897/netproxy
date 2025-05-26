@@ -4,7 +4,6 @@
 #   -- Owner:       https://www.inet.no/dante
 #   -- Provider:    http://hypool.asia
 #   -- Author:      867897
-#
 
 # Check if user is root
 if [ $(id -u) != "0" ]; then
