@@ -2,8 +2,8 @@
 #
 #   Dante Socks5 Server AutoInstall
 #   -- Owner:       https://www.inet.no/dante
-#   -- Provider:    https://sockd.info
-#   -- Author:      Lozy
+#   -- Provider:    http://hypool.asia
+#   -- Author:      867897
 #
 
 # Check if user is root
@@ -12,7 +12,7 @@ if [ $(id -u) != "0" ]; then
     exit 1
 fi
 
-REQUEST_SERVER="https://raw.github.com/Lozy/danted/master"
+REQUEST_SERVER="https://github.com/867897/netproxy/blob/main/SK5/"
 SCRIPT_SERVER="https://public.sockd.info"
 SYSTEM_RECOGNIZE=""
 
